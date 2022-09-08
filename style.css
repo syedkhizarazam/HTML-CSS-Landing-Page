@@ -1,0 +1,191 @@
+body,
+.top2,
+.section2,
+.section3,
+.image-card,
+.barText {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.header,
+.section1,
+.section2-cards,
+.section4,
+.links {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.infoHeader {
+  text-align: center;
+}
+
+.image-card p {
+  width: 180px;
+  text-align: center;
+}
+
+.section2-cards {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.image-card img {
+  height: 200px;
+  border-radius: 10px;
+  border: solid blue 2px;
+  width: 200px;
+}
+
+.links {
+  gap: 15px;
+  margin-top: 20px;
+}
+body {
+  margin: 0px;
+}
+
+.top2,
+.footer {
+  background-color: #1f2937;
+}
+
+.section1-right {
+  text-align: center;
+  color: #f9faf8;
+  width: 500px;
+  height: 200px;
+  background-color: gray;
+}
+
+.section1-right p {
+  margin: 90px 0 0 0;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.setion1-left {
+  padding-bottom: 100px;
+  width: 470px;
+}
+.header {
+  gap: 450px;
+}
+.section1 {
+  gap: 100px;
+  align-items: center;
+}
+
+.top2 {
+  align-items: center;
+}
+
+.heroMain {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.heroSec {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.s1-button {
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 0;
+  width: 100px;
+  height: 30px;
+}
+
+.infoHeader {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  justify-content: center;
+}
+.quote {
+  margin-top: 200px;
+  margin-bottom: auto;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.author {
+  flex-basis: 200px;
+}
+.section4 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+}
+
+.section3 {
+  text-align: center;
+}
+
+.author {
+  padding-left: 150px;
+}
+
+.section4PText {
+  font-weight: 900;
+  font-size: 18px;
+  margin: 40px 0 0 0;
+}
+
+.section4SText {
+  margin: 0 0 40px 0;
+}
+
+.section4 {
+  margin: 80px 150px 80px 150px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  width: 1000px;
+}
+
+.s4button {
+  align-self: center;
+  padding: 5px 25px 5px 25px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border-color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.footer p {
+  color: #f9faf8;
+  font-size: 10px;
+}
